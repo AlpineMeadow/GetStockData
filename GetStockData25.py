@@ -29,7 +29,7 @@ def main() :
     dateTime = (yearStr + monthStr + dayStr + hourStr + minuteStr)
     
     #The name of the stock we are looking at.
-    stockAbbrev = 'swp'  #Stanley Black & Decker
+    stockAbbrev = 'swk'  #Stanley Black & Decker
 
     #Now get the data from the IEX server.
     data = gsf.query(numSec, sleepTime, stockAbbrev, dateTime)
